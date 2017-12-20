@@ -8,6 +8,7 @@ namespace Dialogs
 		public MainPage()
 		{
 			InitializeComponent();
+
 		}
 
 	    private async void ShowDisplayAlert(object s, EventArgs e)
