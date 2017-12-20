@@ -1,5 +1,6 @@
 ﻿using System;
 using Plugin.Toasts;
+using Rg.Plugins.Popup.Extensions;
 using Xamarin.Forms;
 
 namespace Dialogs
@@ -48,6 +49,11 @@ namespace Dialogs
 	        };
 
 	        await notificator.Notify(options);
+	    }
+
+	    private async void ShowRgPluginsPopup(object sender, EventArgs e)
+	    {
+	        await Navigation.PushPopupAsync(new LoginPopup());
 	    }
 	}
 }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace Dialogs
 {
@@ -13,7 +8,7 @@ namespace Dialogs
 		{
 			InitializeComponent();
 
-			MainPage = new Dialogs.MainPage();
+			MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()
