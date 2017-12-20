@@ -9,6 +9,8 @@
                 Clicked="ShowDisplayAlert" />
         <Button Text="ActionSheet"
                 Clicked="ShowActionSheet" />
+        <Button Text="Toasts.Forms.Plugin"
+                Clicked="ShowToastsFormsPlugin"/>
     </StackLayout>
 
 </ContentPage>
